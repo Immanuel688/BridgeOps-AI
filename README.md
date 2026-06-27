@@ -214,6 +214,3 @@ Secrets (`.env` values, `token.pickle`, `service_account.json`) should be stored
 
 ---
 
-## License
-
-MIT
