@@ -122,13 +122,13 @@ FALLBACK_STAKEHOLDER_DL=
 
 ## Google Sheets Schema
 
-**Sheet 1 — Teams** (`GOOGLE_SHEET_ID_TECH`, range `A2:D`)
+**Sheet 1 — Teams** (`GOOGLE_SHEET_ID_TECH`, range `Enter Range`)
 
 | display_name | dl_email | keywords_hint |
 |---|---|---|
 | Network | network-dl@company.com | network, connectivity, switch, wifi |
 
-**Sheet 2 — OnCall CIM** (`GOOGLE_SHEET_ID_CIM`, range `A10:I`)
+**Sheet 2 — OnCall CIM** (`GOOGLE_SHEET_ID_CIM`, range `Enter Range`)
 
 | name | email | phone | start_date | end_date | is_backup | backup_start | backup_end | timezone |
 |---|---|---|---|---|---|---|---|---|
@@ -137,7 +137,7 @@ FALLBACK_STAKEHOLDER_DL=
 
 Dates in `dd/mm/yyyy`. Backup rows activate only within their time window.
 
-**Sheet 3 — Fixed Members** (`GOOGLE_SHEET_ID_FIXED`, range `A2:C`)
+**Sheet 3 — Fixed Members** (`GOOGLE_SHEET_ID_FIXED`, range `Enter Range`)
 
 | role | email | attendance_type |
 |---|---|---|
